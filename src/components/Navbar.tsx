@@ -17,13 +17,13 @@ const Navbar = () => {
       {/* Buttons */}
       <div className="flex gap-2">
       <Button className="bg-transparent text-white px-6 py-3  text-base font-thin font-montserrat hover:underline hover:underline-offset-2 transition ">
-          Button 1
+          Home Loan
         </Button>
       <Button className="bg-transparent text-white px-6 py-3  text-base font-thin font-montserrat hover:bg-white/0 transition ">
-          Button 2
+          Credit Card
         </Button>
       <Button className="bg-transparent text-white px-6 py-3  text-base font-thin font-montserrat hover:bg-white/10 transition ">
-          Button 3
+          Loan 3
         </Button>
       </div>
     </nav>
