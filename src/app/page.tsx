@@ -28,8 +28,10 @@ export default function Home() {
         priority
       />
 
-      {/* Navbar */}
-      <Navbar />
+      {/* Navbar - giving it a higher z-index */}
+      <div className="relative z-50">
+        <Navbar />
+      </div>
 
       {/* Content */}
       <div className="relative z-10">
